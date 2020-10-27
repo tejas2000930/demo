@@ -1,0 +1,263 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Contact Us </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="cnt.js"></script>
+Try it Yourself »
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 455, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+
+      <style>
+h3 {
+   
+font-family: 'Rochester', cursive;
+font-size: 40px;
+font-color: red;
+
+      }
+
+      
+h4 {
+      
+font-family: 'Rochester', cursive;
+font-size: 40px;
+font-color: white;
+      }
+h1
+{
+
+font-family: 'Rochester', cursive;
+font-size:40px;
+font-color: white;
+}
+p
+{
+
+font-family: 'Rochester', cursive;
+font-size:40px;
+background: black;
+font-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a {
+color: black;
+}
+body
+{
+background: black;
+font-color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: white;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: white;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #00bfff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: white;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: black;
+}
+.container .info span {
+  color: black;
+  font-size: 12px;
+}
+.container .info span a {
+  color: black;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: black;
+}
+body {
+
+  background: black; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, black, black);
+  background: -moz-linear-gradient(right, black, black);
+  background: -o-linear-gradient(right, black, black);
+  background: linear-gradient(to left, black, black);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+h4 {
+
+background: black;
+}
+hr {
+background: black;
+}
+</style>
+</head>
+<head>
+ <link rel = "stylesheet" type = "text/css"  href = "cafe.css">
+ <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-inverse navbar-fixed-top data-spy="affix" data-offset-top="197">
+  <div class="container-fluid">
+ <div class="navbar-header">
+
+     <a class = "navbar-brand" href = "cafe.html"><b>B O N &nbsp;&nbsp;A P P E T I T</b></a>
+	 </div>
+	     <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+	   <li><a class = "active" href = "#1">A B O U T &nbsp;U S</a></li>
+	   <li><a href = "menu.html" class = "container-fluid">M E N U</a></li>
+	   <li><a href = "events.html" class = "container-fluid">E V E N T S</a></li>
+       <li><a href="cnt.html" class = "container-fluid">C O N T A C T</a></li>
+	  
+	   
+	  
+	 </ul>
+	</div>
+	</div>
+	</nav>
+<br><br>
+<center><img src="cu1.jpg" alt="contact us" width="1500" height="550"></center>
+<p><h1><center>Hours Of Operation</center></h1></p>
+<p><h3><b><center>Lunch</center></b></h3></p>
+<p><h3><center>12-3Pm Daily</center></h3></p>
+<p><h3><b><center>Dinner</center></b></h3></p>
+<p><h3><center>Sun-Thurs:5:30-10:30Pm</center></h3></p>
+<p><h3><center>Fri-Sat:5:30-11:30Pm</center></h3></p>
+<p><h3><b><center>Lounge</center></b></h3></p>
+<p><h3><center>5Pm-Close Daily</center></h3></p>
+<p><h3><center>Call 212 490 2100 or email at reservations@bonappetit.com for reservations</center></h3></p>
+<p><h3><center>or Click at the end of the page for reservations.</center></h3></p>
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30187.81051162765!2d72.81573584065559!3d18.9545604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce24653751df%3A0x49acdaa87fb52322!2sBon+Appetit!5e0!3m2!1sen!2sin!4v1487739429926" width="600" height="450" frameborder="0" style="border:0" allowfullscreen height="1000" width="1000"></iframe></center>
+<p><h1><center>Where To Find Us</center></h1></p>
+<p><h3><b><center>Bon Appetit</center></b></h3></p>
+<p><h3><center>27 W 24th St, New York, NY 10010</center></h3></p>
+<p><h3><center>(212) 490 2100</center></h3></p>
+<p><h3><center>info@jannatnyc.com</center></h3></p>
+<p><h3><b><center>Subway</center></b></h3></p>
+<p><h3><center>41-D, Mohammed Ali road, Pydhonie, Mandvi</center></h3></p>
+<p><h3><center>Mumbai, Maharashtra-400003.</center></h3></p>
+<h3><b><center>Submit Enquiry</center></b></h3>
+<p><h3><b><center>Please contact us for further information on Bon appetit's private dining room and for consultation on our customized menus with wine pairings or call (212) 490-2100 Ext. 309.</center></b></h3></p>
+</body>
+</html>
